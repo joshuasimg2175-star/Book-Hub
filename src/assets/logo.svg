@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BookHub mark: open book + bookmark + signal ring. Uses currentColor for theme-aware rendering. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <g fill="currentColor">
+    <path d="M12 12h18c5.8 0 10.4 4.6 10.4 10.4V50c-2.4-2.1-5.6-3.2-9-3.2H12c-1.1 0-2-.9-2-2V14c0-1.1.9-2 2-2Z" opacity="0.92"/>
+    <path d="M52 12H34c-5.8 0-10.4 4.6-10.4 10.4V50c2.4-2.1 5.6-3.2 9-3.2H52c1.1 0 2-.9 2-2V14c0-1.1-.9-2-2-2Z" opacity="0.82"/>
+    <path d="M32 15.5a2 2 0 0 1 2 2V33l-2.1-1.5-2.1 1.5V17.5a2 2 0 0 1 2-2Z"/>
+    <path d="M20 24.2h8.8M20 29.2h7.1M36 24.2h8.8M36 29.2h7.1" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="50" cy="14" r="7" fill="none" stroke="currentColor" stroke-width="2" opacity="0.72"/>
+    <circle cx="50" cy="14" r="2" />
+  </g>
+</svg>

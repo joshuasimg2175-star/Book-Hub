@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="52" x2="456" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#243863"/>
+      <stop offset="0.52" stop-color="#294a88"/>
+      <stop offset="1" stop-color="#1a2f5e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(168 118) rotate(42) scale(328 220)">
+      <stop offset="0" stop-color="#9fc7ff" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#9fc7ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pageL" x1="126" y1="162" x2="238" y2="387" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#dfe9f8"/>
+    </linearGradient>
+    <linearGradient id="pageR" x1="274" y1="162" x2="386" y2="387" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbfdff"/>
+      <stop offset="1" stop-color="#d5e0f4"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="248" y1="150" x2="264" y2="392" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd987"/>
+      <stop offset="1" stop-color="#f0ac43"/>
+    </linearGradient>
+    <linearGradient id="shelf" x1="122" y1="374" x2="392" y2="408" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3a5ca3"/>
+      <stop offset="1" stop-color="#2c4c91"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#bg)"/>
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#glow)"/>
+  <rect x="46" y="46" width="420" height="128" rx="58" fill="#c8dcff" opacity="0.14"/>
+  <g opacity="0.98">
+    <path d="M122 174c0-16 13-29 29-29h79c31 0 58 13 76 35v206c-18-14-41-22-68-22h-87c-16 0-29-13-29-29V174Z" fill="url(#pageL)"/>
+    <path d="M390 174c0-16-13-29-29-29h-79c-31 0-58 13-76 35v206c18-14 41-22 68-22h87c16 0 29-13 29-29V174Z" fill="url(#pageR)"/>
+    <rect x="248" y="150" width="16" height="236" rx="8" fill="url(#spine)"/>
+    <path d="M248 150h16v78l-8-7-8 7v-78Z" fill="#d7932c"/>
+    <path d="M152 220h66m-66 34h56m142-34h-66m66 34h-56" stroke="#7293ca" stroke-width="12" stroke-linecap="round" opacity="0.62"/>
+  </g>
+  <rect x="118" y="374" width="276" height="36" rx="18" fill="url(#shelf)"/>
+  <g opacity="0.9">
+    <path d="M340 130h36l20 18h36" stroke="#d8e8ff" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="336" cy="130" r="12" fill="#e5f0ff"/>
+    <circle cx="398" cy="148" r="12" fill="#e5f0ff"/>
+    <circle cx="454" cy="148" r="12" fill="#e5f0ff"/>
+  </g>
+</svg>

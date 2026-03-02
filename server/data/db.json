@@ -1,0 +1,259 @@
+{
+  "users": [
+    {
+      "id": "user-8d24d0bb-2c91-442d-bfb6-b4b6b92aa1cf",
+      "name": "Joshua",
+      "email": "joshua.m.smith1@icloud.com",
+      "createdAt": "2026-02-23T02:27:39.526Z",
+      "passwordHash": "12f7d5b2df1799068ef9a2925322f1be1e9cff0642625eb7738d94fdc871c09b431faceb68cefcf05c4d8ff962f54675117925016651212b38ca6b3bf9a6e220",
+      "passwordSalt": "ef0bd945904f549d5969fd2cd22fd69e",
+      "username": "jsmith"
+    },
+    {
+      "id": "user-c8491050-0a7c-4056-8a56-19d82df55764",
+      "name": "Mason",
+      "email": "mwaldorf@protonmail.com",
+      "createdAt": "2026-02-23T02:29:30.612Z",
+      "passwordHash": "daa56a4488a68e620045bee7e6f0100295c549508ce61a6791638bb174f4ffc378c0642bc887ebd2c54be2164b1b4eddc3521e8a5efd3d5b0ff22d949f056ef2",
+      "passwordSalt": "3cbc7911b771261009e3112fd0257980",
+      "username": "mason"
+    },
+    {
+      "id": "user-4870218c-5773-4e99-b5e5-b2f87f46eff4",
+      "name": "Mase",
+      "email": "mwaldorf@pm.me",
+      "createdAt": "2026-02-23T03:39:50.938Z",
+      "passwordHash": "a157f03f5c346d2b1bdf726595a13f5053df8bf61ef5b669f2a7c04efc72b614fc1f7f5d2db31953fcfea77ec8dc596feba355f3af2d7569b83c97dcbb0051af",
+      "passwordSalt": "08a161bc07a24115052ac11ee3104954",
+      "username": "mlivingston"
+    },
+    {
+      "id": "user-037cdf32-d0d4-42c0-b4c4-b9ca9b160efa",
+      "name": "QA User A Updated",
+      "username": "qauf5l91c",
+      "email": "qa_a_f5l91c@example.com",
+      "createdAt": "2026-02-23T04:21:14.384Z",
+      "passwordHash": "6468feaffe704fe0ebf7339a469f004899a0c99e81715570ce84309a8117d0513a630191402585cbc6b2dd102f0130d53d23851fb4e1dece2988feee21eadf02",
+      "passwordSalt": "3931e720effe864030ec0a8885f9aced"
+    },
+    {
+      "id": "user-adbaccc5-9665-419e-9858-418ad8096486",
+      "name": "QA User B",
+      "username": "qabf5l91c",
+      "email": "qa_b_f5l91c@example.com",
+      "createdAt": "2026-02-23T04:21:14.440Z",
+      "passwordHash": "0e9b76e705d28f7988cdab581f81836ddc3a91886551624515033e724d1d25b82448e540ffd6acedec8fe04ccdd4264567cc35ca013fe78fe0bb580124946ec5",
+      "passwordSalt": "7695950b9002d54b663adbf7f225bac1"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "454b9d12be0da716a04284f3fd3d8f7ab1e9fc25aa377cb8b57b29872b6457fe",
+      "userId": "user-8d24d0bb-2c91-442d-bfb6-b4b6b92aa1cf",
+      "createdAt": "2026-02-23T02:27:39.526Z",
+      "lastSeenAt": "2026-02-23T04:30:03.469Z"
+    },
+    {
+      "token": "a37a24406a224d99d8ded79011b3b3ccaed0ac7ebc057feda4ab8d6ecbdbf4db",
+      "userId": "user-c8491050-0a7c-4056-8a56-19d82df55764",
+      "createdAt": "2026-02-23T02:29:30.613Z",
+      "lastSeenAt": "2026-02-23T03:37:58.310Z"
+    },
+    {
+      "token": "dad7fdc6d3959dda24275476a3bb75ef93c623cc1695e9f9b3271de184281544",
+      "userId": "user-8d24d0bb-2c91-442d-bfb6-b4b6b92aa1cf",
+      "createdAt": "2026-02-23T03:20:10.402Z",
+      "lastSeenAt": "2026-02-23T04:19:43.405Z"
+    },
+    {
+      "token": "6c55ff0fef0c9bc8bf932f210e514dce24e6edd6a3ef3eb8b72fbf8c283b9652",
+      "userId": "user-4870218c-5773-4e99-b5e5-b2f87f46eff4",
+      "createdAt": "2026-02-23T03:39:50.939Z",
+      "lastSeenAt": "2026-02-23T04:30:07.115Z"
+    },
+    {
+      "token": "fdecdac6452ca8d751b4e6c4782e3fd68f2c40146ab9cce9e6d02ef0b743b82a",
+      "userId": "user-037cdf32-d0d4-42c0-b4c4-b9ca9b160efa",
+      "createdAt": "2026-02-23T04:21:14.384Z",
+      "lastSeenAt": "2026-02-23T04:21:14.467Z"
+    },
+    {
+      "token": "0ef8c40b36fcfe4521ec8d59f6795c67c4d0df49214505848a2835824d595c52",
+      "userId": "user-adbaccc5-9665-419e-9858-418ad8096486",
+      "createdAt": "2026-02-23T04:21:14.440Z",
+      "lastSeenAt": "2026-02-23T04:21:14.453Z"
+    }
+  ],
+  "booksByUser": {
+    "user-8d24d0bb-2c91-442d-bfb6-b4b6b92aa1cf": [
+      {
+        "id": "0aed9bc5-08b5-43b7-9863-9e089247fafc",
+        "title": "The Eye of Minds (The Mortality Doctrine, Book One)",
+        "authors": [
+          "James Dashner"
+        ],
+        "cover": "https://covers.openlibrary.org/b/id/8443771-L.jpg",
+        "summary": "\"Michael is a skilled internet gamer in a world of advanced technology. When a cyber-terrorist begins to threaten players, Michael is called upon to seek him and his.",
+        "description": "\"Michael is a skilled internet gamer in a world of advanced technology. When a cyber-terrorist begins to threaten players, Michael is called upon to seek him and his.",
+        "status": "currently reading",
+        "thoughts": "",
+        "addedAt": "2026-02-23T02:30:39.487Z"
+      },
+      {
+        "id": "af8be4a8-47cc-4dc0-9bfa-d2a55837d36f",
+        "title": "Thinking, fast and slow",
+        "authors": [
+          "Unknown Author"
+        ],
+        "cover": "https://covers.openlibrary.org/b/id/7889800-L.jpg",
+        "summary": "In this work the author, a recipient of the Nobel Prize in Economic Sciences for his seminal work in psychology that challenged the rational model of judgment and.",
+        "description": "In this work the author, a recipient of the Nobel Prize in Economic Sciences for his seminal work in psychology that challenged the rational model of judgment and.",
+        "status": "unread",
+        "thoughts": "",
+        "addedAt": "2026-02-23T02:31:05.698Z"
+      },
+      {
+        "id": "d2125ce1-1784-43f8-ac8e-7549c8c5fd3d",
+        "title": "From Below",
+        "authors": [
+          "Darcy Coates"
+        ],
+        "cover": "https://covers.openlibrary.org/b/id/12780414-L.jpg",
+        "summary": "No light. No air. No escape. Hundreds of feet beneath the ocean's surface, a graveyard waits... Years ago, the SS Arcadia vanished without a trace during a routine...",
+        "description": "No light. No air. No escape. Hundreds of feet beneath the ocean's surface, a graveyard waits... Years ago, the SS Arcadia vanished without a trace during a routine...",
+        "status": "wishlist",
+        "thoughts": "",
+        "addedAt": "2026-02-23T02:31:12.255Z"
+      },
+      {
+        "id": "8ef52661-687f-4cf5-a31d-b8d720574ebf",
+        "title": "Hunted",
+        "authors": [
+          "Darcy Coates"
+        ],
+        "cover": "https://covers.openlibrary.org/b/id/15128714-L.jpg",
+        "summary": "**She only went off the trail for a moment. ** Twenty-two-year-old Eileen goes missing while hiking in the remote Ashlough Forest.",
+        "description": "**She only went off the trail for a moment. ** Twenty-two-year-old Eileen goes missing while hiking in the remote Ashlough Forest.",
+        "status": "wishlist",
+        "thoughts": "",
+        "addedAt": "2026-02-23T02:30:26.022Z"
+      },
+      {
+        "id": "4970e992-c9b4-40d9-92fb-2d290931b995",
+        "title": "Gold dust woman",
+        "authors": [
+          "Stephen Davis"
+        ],
+        "cover": "https://via.placeholder.com/180x280?text=No+Cover",
+        "summary": "An in-depth portrait of the classic-rock artist covers her role in the stardom of Fleetwood Mac, the affairs that inspired her greatest songs, her struggles with.",
+        "description": "An in-depth portrait of the classic-rock artist covers her role in the stardom of Fleetwood Mac, the affairs that inspired her greatest songs, her struggles with.",
+        "status": "wishlist",
+        "thoughts": "",
+        "addedAt": "2026-02-23T04:09:09.693Z"
+      }
+    ],
+    "user-c8491050-0a7c-4056-8a56-19d82df55764": [
+      {
+        "id": "8ef52661-687f-4cf5-a31d-b8d720574ebf",
+        "title": "Hunted",
+        "authors": [
+          "Darcy Coates"
+        ],
+        "cover": "https://covers.openlibrary.org/b/id/15128714-L.jpg",
+        "summary": "**She only went off the trail for a moment. ** Twenty-two-year-old Eileen goes missing while hiking in the remote Ashlough Forest.",
+        "description": "**She only went off the trail for a moment. ** Twenty-two-year-old Eileen goes missing while hiking in the remote Ashlough Forest.",
+        "status": "currently reading",
+        "thoughts": "Joshua sucks",
+        "addedAt": "2026-02-23T02:30:26.022Z"
+      },
+      {
+        "id": "d2125ce1-1784-43f8-ac8e-7549c8c5fd3d",
+        "title": "From Below",
+        "authors": [
+          "Darcy Coates"
+        ],
+        "cover": "https://covers.openlibrary.org/b/id/12780414-L.jpg",
+        "summary": "No light. No air. No escape. Hundreds of feet beneath the ocean's surface, a graveyard waits... Years ago, the SS Arcadia vanished without a trace during a routine...",
+        "description": "No light. No air. No escape. Hundreds of feet beneath the ocean's surface, a graveyard waits... Years ago, the SS Arcadia vanished without a trace during a routine...",
+        "status": "read",
+        "thoughts": "",
+        "addedAt": "2026-02-23T02:31:12.255Z"
+      }
+    ],
+    "user-4870218c-5773-4e99-b5e5-b2f87f46eff4": [
+      {
+        "id": "8ef52661-687f-4cf5-a31d-b8d720574ebf",
+        "title": "Hunted",
+        "authors": [
+          "Darcy Coates"
+        ],
+        "cover": "https://covers.openlibrary.org/b/id/15128714-L.jpg",
+        "summary": "**She only went off the trail for a moment. ** Twenty-two-year-old Eileen goes missing while hiking in the remote Ashlough Forest.",
+        "description": "**She only went off the trail for a moment. ** Twenty-two-year-old Eileen goes missing while hiking in the remote Ashlough Forest.",
+        "status": "read",
+        "thoughts": "",
+        "addedAt": "2026-02-23T02:30:26.022Z"
+      },
+      {
+        "id": "d2125ce1-1784-43f8-ac8e-7549c8c5fd3d",
+        "title": "From Below",
+        "authors": [
+          "Darcy Coates"
+        ],
+        "cover": "https://covers.openlibrary.org/b/id/12780414-L.jpg",
+        "summary": "No light. No air. No escape. Hundreds of feet beneath the ocean's surface, a graveyard waits... Years ago, the SS Arcadia vanished without a trace during a routine...",
+        "description": "No light. No air. No escape. Hundreds of feet beneath the ocean's surface, a graveyard waits... Years ago, the SS Arcadia vanished without a trace during a routine...",
+        "status": "currently reading",
+        "thoughts": "",
+        "addedAt": "2026-02-23T02:31:12.255Z"
+      }
+    ],
+    "user-037cdf32-d0d4-42c0-b4c4-b9ca9b160efa": [
+      {
+        "id": "qa-book-f5l91c",
+        "title": "QA Book",
+        "authors": [
+          "QA Author"
+        ],
+        "cover": "https://example.com/c.jpg",
+        "summary": "qa",
+        "description": "qa",
+        "status": "unread",
+        "thoughts": "ok",
+        "addedAt": "2026-02-23T04:21:14.460Z"
+      }
+    ],
+    "user-adbaccc5-9665-419e-9858-418ad8096486": []
+  },
+  "friendsByUser": {
+    "user-8d24d0bb-2c91-442d-bfb6-b4b6b92aa1cf": [
+      "user-4870218c-5773-4e99-b5e5-b2f87f46eff4"
+    ],
+    "user-c8491050-0a7c-4056-8a56-19d82df55764": [],
+    "user-4870218c-5773-4e99-b5e5-b2f87f46eff4": [
+      "user-8d24d0bb-2c91-442d-bfb6-b4b6b92aa1cf"
+    ],
+    "user-037cdf32-d0d4-42c0-b4c4-b9ca9b160efa": [],
+    "user-adbaccc5-9665-419e-9858-418ad8096486": []
+  },
+  "friendRequests": [
+    {
+      "id": "frq-c6f07df0-f4e8-4d0d-ab24-00b156afebfe",
+      "fromUserId": "user-8d24d0bb-2c91-442d-bfb6-b4b6b92aa1cf",
+      "toUserId": "user-4870218c-5773-4e99-b5e5-b2f87f46eff4",
+      "status": "accepted",
+      "createdAt": "2026-02-23T03:53:58.451Z",
+      "respondedAt": "2026-02-23T03:54:04.674Z"
+    },
+    {
+      "id": "frq-c608537c-b435-470b-8fc0-26b801b18ac7",
+      "fromUserId": "user-037cdf32-d0d4-42c0-b4c4-b9ca9b160efa",
+      "toUserId": "user-adbaccc5-9665-419e-9858-418ad8096486",
+      "status": "accepted",
+      "createdAt": "2026-02-23T04:21:14.449Z",
+      "respondedAt": "2026-02-23T04:21:14.454Z"
+    }
+  ],
+  "createdAt": "2026-02-23T00:00:00.000Z",
+  "updatedAt": "2026-02-23T04:30:07.115Z"
+}
